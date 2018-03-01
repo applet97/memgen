@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.mem_photo {
+  width: 500px;
+  height: 100%;
+  display: inline;
+}
+
+.mem_container {
+  margin: 50px;
+}
+
+input{
+  padding-left: 25px;
+  height: 20px;
+  margin: 30px;
+}
+
+.input-text {
+  display: block;
+  margin-top: 100px;
+}
+
+.input-text input {
+  height: 30px;
+  display: block;
+  float: left;
+}
+
+.template-container {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.template-container:hover {
+  box-shadow: 0 3px 2px rgba(0,0,0,0.30);
+}
+
+.template {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.title {
+  background: #283d70;
+  padding: 30px;
+  color: #fff;
+}
+
+.template-list-container, .mem-container {
+  width: 80%;
+  background: #e0ddd5;
+  margin: 0 auto;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+.mem_photo {
+  display: block;
+  margin: 0 auto;
+}
+
+.main {
+  background: #2e3546;
+}
+
+.App {
+  background: #2e3546;
+}
+
+html {
+  background: #2e3546;
+}
+
+.mem-photo {
+  position: absolute;
+  margin: auto;
+  max-width: 80%;
+}
+
+.mem-img {
+  position: absolute;
+  max-width: 100%;
+  margin: 0 auto;
+}
